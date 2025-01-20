@@ -1,0 +1,106 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-primary {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.raleway-secondary{
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared styles */
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+
+/*Header & nav styles */
+.header{
+    max-width: 1160px;
+    margin: 0 auto;
+    /* background-color: rgb(247, 247, 247);*/
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.logo-img{
+    width: 62px;
+    height: 62px;
+}
+.logo-img img{
+    width: 100%;
+}
+.logo h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+}
+.menu li a{
+    text-decoration: none;
+}
+.btn1{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: rgb(254, 163, 1);
+    border-style: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* menu color */
+.h{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(254, 163, 1);
+}
+.ab{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(1, 172, 253);
+}
+.f{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(5, 212, 223);
+}
+.ad{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(93, 88, 239);
+}
+
+/* burger menu */
+
+/* nav bar responsive */
+@media screen and (max-width: 576px) {
+    .logo h1{
+        display: none;
+    }
+    .menu, .btn1{
+        display: none;
+    }
+
+}
