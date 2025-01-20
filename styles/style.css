@@ -17,12 +17,12 @@
 
 /* shared styles */
 body{
+    margin: 0;
     background-color: rgb(247, 247, 247);
 }
 
-
 /*Header & nav styles */
-.header{
+.head-nav{
     max-width: 1160px;
     margin: 0 auto;
     /* background-color: rgb(247, 247, 247);*/
@@ -68,6 +68,7 @@ nav{
     color: white;
     font-size: 1.2rem;
     font-weight: 600;
+    padding: 10px;
 }
 
 /* menu color */
@@ -92,9 +93,55 @@ nav{
     color: rgb(93, 88, 239);
 }
 
+
+
 /* burger menu */
 
-/* nav bar responsive */
+
+/* banner styles */
+.banner-sec{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b-content > h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.b-content > p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.b-content > button{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    width: 197px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+    border-style: none;
+}
+#c-h-clr1{
+    color: rgb(254, 163, 1);
+}
+#c-h-clr2{
+    color: rgb(1, 172, 253);
+}
+
+
+
+
+
+
+
+
+
+/* small device mobile responsive */
 @media screen and (max-width: 576px) {
     .logo h1{
         display: none;
@@ -102,5 +149,43 @@ nav{
     .menu, .btn1{
         display: none;
     }
-
+    .head-nav{
+        max-width: 358px;
+        margin: 0 auto;
+        padding-top: 12px;
+        /* background-color: rgb(247, 247, 247);*/
+    }
+    .logo-img{
+        width: 39.03px;
+        height: 46px;
+    }
+    .nav-section{
+        margin: 0;
+        border-bottom: 0.5px solid rgb(254, 163, 1);
+        /* background-color: brown; */
+    }
+    /* responsive banner section  */
+    .banner-sec {
+        max-width: 357px;
+        /* margin: 0 auto; */
+    }
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .b-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* gap: 18px; */
+    }
+    .b-content > h1{
+        font-size: 2rem;
+    }
+    .b-content > p{
+        font-size: 1rem;
+    }
+    .b-img img{
+        max-width: 100%;
+    }
 }
