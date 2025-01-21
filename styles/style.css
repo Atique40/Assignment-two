@@ -141,8 +141,11 @@ nav{
 }
 
 /* Standard Curriculum styles */
-.curriculum{
+.curri{
     background-image: url("../assets/bg.png");
+}
+.curriculum{
+    
     /* background-color: red; */
     max-width: 1160px;
 
@@ -233,6 +236,86 @@ nav{
 }
 
 
+/* our story section styles */
+.stories-sec{
+    /* background-image: url(); */
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-size: cover;
+}
+.stories{
+    max-width: 1160px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+.stories > h1{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px;
+}
+.story-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0px;
+    margin-top: 20px;
+}
+.first-story{
+    display: flex;
+    flex-direction: column;
+    /* height: 630px; */
+}
+.small-four{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    height: 580px;
+}
+.s-story{
+    display: flex;
+    flex-direction: column;
+    /* height: 630px; */
+    /* border-radius: 16px; */
+}
+
+.s2, .s3, .s4, .s5{
+    border-radius: 16px;
+}
+.s-content h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.35px;
+}
+.s-content p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 28.76px;
+}
+.s-content{
+    background-color: white;
+    padding: 38px;
+}
+.s-h{
+    font-size: 0.9rem;
+    font-weight: 700;
+    background-color: white;
+    padding: 30px;
+}
+.stories-btn{
+    margin-top: 20px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    width: 197px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+    border-style: none;
+    /* text-align: center; */
+}
+.s-btn{
+    text-align: center;
+}
 
 
 /* small device mobile responsive */
@@ -294,5 +377,28 @@ nav{
     }
     .pre-next{
         display: none;
+    }
+
+    /* stories section responsive */
+    .small-four{
+        max-width: 360px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* align-items: center; */
+        margin-left: 38px;
+        gap: 10px;
+        height: auto;
+    }
+    .first-story{
+        display: none;
+    }
+    .s-img{
+        width: 100%;
+    }
+    .s2, .s3, .s4, .s5{
+        border-radius: 16px;
+    }
+    .stories > h1{
+        margin-bottom: -45px;
     }
 }
