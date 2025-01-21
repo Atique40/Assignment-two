@@ -16,8 +16,11 @@
 }
 
 /* shared styles */
-body{
+*{
     margin: 0;
+    padding: 0;
+}
+body{
     background-color: rgb(247, 247, 247);
 }
 
@@ -132,9 +135,37 @@ nav{
 #c-h-clr2{
     color: rgb(1, 172, 253);
 }
+.b-img img{
+    display: block;
+}
 
-
-
+/* Standard Curriculum styles */
+.curriculum{
+    background-image: url("../assets/bg.png");
+    /* background-color: red; */
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.card-cont{
+    display: flex;
+}
+.curriculum > h1{
+    margin: 0;
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+.card-h{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
 
 
 
