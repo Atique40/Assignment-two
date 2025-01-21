@@ -121,6 +121,7 @@ nav{
     font-weight: 400;
 }
 .b-content > button{
+    margin-top: 20px;
     background-color: rgb(17, 17, 17);
     color: white;
     width: 197px;
@@ -144,30 +145,92 @@ nav{
     background-image: url("../assets/bg.png");
     /* background-color: red; */
     max-width: 1160px;
+
     margin: 0 auto;
 }
 .card-cont{
     display: flex;
+    gap: 28px;
+    justify-content: space-between;
 }
 .curriculum > h1{
     margin: 0;
     text-align: center;
     font-size: 2.7rem;
     font-weight: 700;
+    padding: 60px 0 80px;
 }
 .card-h{
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* margin-bottom: 80px; */
+    
+}
+.card-p{
     font-size: 0.9rem;
     font-weight: 500;
+    line-height: 28.3px;
 }
 .card{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+    gap: 38px;
+    text-align: center;
+    padding: 30px 20px;
+    max-width: 367px;
+    border-radius: 18.86px;
+    /* margin-top: 80px; */
+    /* max-height: 476.78px; */
 }
-
-
+.card1{
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card2{
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card3{
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+/* .btn-cont{
+    background-color: red;
+} */
+.c-btn1{
+    /* max-width: 100px; */
+    text-align: center;
+    color: rgb(100, 200, 255);
+    border-style: none;
+    background-color: white;
+}
+.c-btn2{
+    /* max-width: 100px; */
+    text-align: center;
+    color: rgb(240, 170, 0);
+    border-style: none;
+    background-color: white;
+}
+.c-btn3{
+    /* max-width: 100px; */
+    text-align: center;
+    color: rgb(135, 0, 255);
+    border-style: none;
+    background-color: white;
+}
+.c-img{
+    width: 133px;
+    margin: 0 auto;
+    display: block;
+    /* padding: 40px; */
+}
+.pre-next{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    /* background-color: rgb(254, 163, 1); */
+}
+.round-btn{
+    background-color: rgb(254, 163, 1);
+    border-radius: 50px;
+}
 
 
 
@@ -218,5 +281,18 @@ nav{
     }
     .b-img img{
         max-width: 100%;
+    }
+
+    /* .curriculum */
+    .card-cont{
+        flex-direction: column;
+        margin: 0 16px;
+    }
+    .curriculum > h1{
+        font-size: 1.5rem;
+        padding: 40px 0 20px 0;
+    }
+    .pre-next{
+        display: none;
     }
 }
