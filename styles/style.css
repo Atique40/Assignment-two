@@ -234,13 +234,29 @@ nav{
 .pre-next{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 80px;
+    gap: 12px;
     /* background-color: rgb(254, 163, 1); */
 }
-.round-btn{
+/* .round-btn{
     background-color: rgb(254, 163, 1);
     border-radius: 50px;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+} */
+.lr-btn{
+    background-color: rgb(254, 163, 1);
+    color: white;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 24px;
+    padding: 20px;
+    border-style: none;
 }
+
 
 
 /* our story section styles */
@@ -258,7 +274,7 @@ nav{
     padding-bottom: 60px;
 }
 .stories > h1{
-    font-size: 2rem;
+    font-size: 2.6rem;
     font-weight: 700;
     text-align: center;
     padding: 50px;
@@ -358,6 +374,7 @@ nav{
     color: white;
     width: 197px;
     height: 50px;
+    font-size: 1.3rem;
     padding: 10px;
     border-radius: 12px;
     border-style: none;
@@ -402,18 +419,24 @@ nav{
     align-items: flex-start;
     max-width: 395px;
 }
+.f-head h2{
+    /* width: 100%; */
+    /* background-color: white; */
+    font-size: 32.14px;
+    font-weight: 700;
+}
 .f-head{
     display: flex;
     gap: 10px;
     /* justify-content: center; */
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     /* margin: 0 auto; */
     color: white;
 }
 .foot-des p{
     color: white;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 25px;
 }
@@ -452,7 +475,7 @@ nav{
     background-color: lightcoral;
     cursor: pointer;
 }
-.round-btn:hover{
+.lr-btn:hover{
     background-color: yellow;
     cursor: pointer;
 }
@@ -609,7 +632,12 @@ nav{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        gap: 35px;
+        gap: 30px;
         /* margin-bottom: 170px; */
+    }
+    .about ul li{
+        /* list-style: none; */
+        /* margin: 17px; */
+        margin-top: 8px;
     }
 }
