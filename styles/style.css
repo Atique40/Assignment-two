@@ -95,6 +95,9 @@ nav{
     font-weight: 500;
     color: rgb(93, 88, 239);
 }
+.menu-icon{
+    display: none;
+}
 
 
 
@@ -329,6 +332,14 @@ nav{
     /* margin-bottom: 60px; */
 }
 
+/* marquee styles */
+.motivation{
+    color: rgb(149, 0, 255);
+    font-size: 4rem;
+    padding-bottom: 40px;
+}
+
+
 /* footer styles */
 .footer{
     background-color: rgb(1, 172, 253);
@@ -338,7 +349,7 @@ nav{
 .footer-sec{
     max-width: 1060px;
     margin: 0 auto;
-    padding: 122px 0 160px 0;
+    padding: 100px 0 120px 0;
 }
 .footer-cont{
     display: flex;
@@ -420,6 +431,11 @@ nav{
         border-bottom: 0.5px solid rgb(254, 163, 1);
         /* background-color: brown; */
     }
+    .menu-icon{
+        display: block;
+        width: 22px;
+        height: 18px;
+    }
     /* responsive banner section  */
     .banner-sec {
         max-width: 357px;
@@ -478,8 +494,8 @@ nav{
     /* .s2, .s3, .s4, .s5{
         border-radius: 16px;
     } */
-    .stories > h1{
-        margin-bottom: -45px;
+    .stories{
+        padding-bottom: 30px;
     }
     .s-h{
         font-size: 9.13px;
@@ -496,11 +512,16 @@ nav{
         margin-bottom: -30px;
         height: 400px;
     }
+    .motivation{
+        color: rgb(149, 0, 255);
+        font-size: 1.5rem;
+        padding-bottom: 30px;
+    }
 
     .footer-sec{
         max-width: 350px;
         margin: 0 auto;
-        padding: 122px 0 160px 0;
+        padding: 50px 0 60px 0;
     }
     .footer-cont{
         display: flex;
