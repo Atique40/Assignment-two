@@ -28,6 +28,7 @@ body{
 .head-nav{
     max-width: 1160px;
     margin: 0 auto;
+    padding-top: 20px;
     /* background-color: rgb(247, 247, 247);*/
 }
 nav{
@@ -495,7 +496,7 @@ nav{
     .head-nav{
         max-width: 358px;
         margin: 0 auto;
-        padding-top: 12px;
+        padding-top: 10px;
         /* background-color: rgb(247, 247, 247);*/
     }
     .logo-img{
@@ -510,7 +511,8 @@ nav{
     .menu-icon{
         display: block;
         width: 22px;
-        height: 18px;
+        height: 22px;
+        margin-bottom: 10px;
     }
     /* responsive banner section  */
     .banner-sec {
