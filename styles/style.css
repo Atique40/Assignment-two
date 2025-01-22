@@ -206,6 +206,7 @@ nav{
     color: rgb(100, 200, 255);
     border-style: none;
     background-color: white;
+    /* text-decoration: none; */
 }
 .c-btn2{
     /* max-width: 100px; */
@@ -220,6 +221,9 @@ nav{
     color: rgb(135, 0, 255);
     border-style: none;
     background-color: white;
+}
+.card-cont a{
+    text-decoration: none;
 }
 .c-img{
     width: 133px;
@@ -357,11 +361,13 @@ nav{
     padding: 10px;
     border-radius: 12px;
     border-style: none;
+    /* cursor: pointer; */
     /* text-align: center; */
 }
 .s-btn{
     text-align: center;
     padding-top: 40px;
+    cursor: pointer;
 
     /* margin-bottom: 60px; */
 }
@@ -437,6 +443,19 @@ nav{
     margin-right: 10px;
 }
 
+/* hover effect */
+.stories-btn:hover, .enroll-btn:hover{
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+}
+.round-btn:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
 
 
 
